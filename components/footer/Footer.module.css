@@ -1,0 +1,23 @@
+.footer__link {
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer_active {
+  color: #5086ec;
+}
+
+@media screen and (max-width: 1130px) {
+  .footer_left_text {
+    max-width: 180px;
+  }
+}
+
+@media (max-width: 780px) {
+  .footer__link {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: white;
+  }
+}/*# sourceMappingURL=Footer.module.css.map */

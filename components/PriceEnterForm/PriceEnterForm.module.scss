@@ -1,0 +1,54 @@
+.container {
+    margin: 60px 32px 32px 32px;
+    .header {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 35px;
+        color: #ffffff;
+        width: 300px;
+    }
+    .headerButton {
+        position: absolute;
+        top: 32px;
+        right: 32px;
+    }
+    .form {
+        display: grid;
+
+        .label {
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 22px;
+            color: #a9a7b4;
+            margin-bottom: 4px;
+            margin-top: 32px;
+        }
+        .input {
+            display: flex;
+            align-items: center;
+            padding: 0 12px;
+            // width: 546px;
+            // height: 56px;
+            width: 368px;
+            height: 56px;
+            background: rgba(255, 255, 255, 0.07);
+            // border: 1px solid #1C192C;
+            border-radius: 8px;
+            margin-bottom: 28px;
+            font-size: 17px !important;
+            line-height: 22px !important;
+            color: #ffffff !important;
+            &:focus {
+                border: 1px solid red !important;
+            }
+        }
+        .submitButton {
+            background: #5086ec;
+            border-radius: 12px !important;
+            min-height: 52px !important;
+            font-size: 17px;
+            text-transform: capitalize;
+        }
+    }
+}
